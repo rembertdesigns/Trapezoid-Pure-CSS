@@ -10,10 +10,23 @@ body{
     align-items: center;
     justify-content: center;
 }
-.triangle{
+.trapezoid{
     height: 0;
-    width: 0;
-    border-bottom: 250px solid white;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
+    width: 200px;
+    border-bottom: 200px solid white;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+footer {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #536DFE;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #000
 }
